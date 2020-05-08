@@ -1,0 +1,761 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww21600\viewh15020\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 "SYSTEM", "1", "SYSTEM", "System Start", ""\
+"main", "2", "SYSTEM", "Thread Start", "main (1)"\
+"main", "3", "SYSTEM", "Type Load", "class=java.lang.Object"\
+"main", "4", "SYSTEM", "Type Load", "class=A5_Part2"\
+"main", "5", "A5_Part2.java:14", "Method Call", "caller=SYSTEM, target=A5_Part2#main:1"\
+"main", "6", "A5_Part2.java:12", "Method Entered", ""\
+"main", "7", "A5_Part2.java:12", "Variable Write", "context=A5_Part2#main:1, args=java.lang.String[0] (id=20)"\
+"main", "8", "A5_Part2.java:14", "Line Step", "file=A5_Part2.java, line=14"\
+"main", "9", "SYSTEM", "Type Load", "class=Scheduler.Process"\
+"main", "10", "SYSTEM", "Type Load", "class=Producer"\
+"main", "11", "A5_Part2.java:14", "New Object", "object=Producer:1"\
+"main", "12", "A5_Part2.java:14", "Method Call", "caller=A5_Part2#main:1, target=Producer:1#Producer:1"\
+"main", "13", "A5_Part2.java:27", "Method Entered", ""\
+"main", "14", "A5_Part2.java:27", "Line Step", "file=A5_Part2.java, line=27"\
+"main", "15", "A5_Part2.java:27", "Method Exit", "returner=Producer:1#Producer:1, value=<void>"\
+"main", "16", "A5_Part2.java:14", "Method Returned", ""\
+"main", "17", "A5_Part2.java:14", "Line Step", "file=A5_Part2.java, line=14"\
+"main", "18", "A5_Part2.java:14", "Variable Write", "context=A5_Part2#main:1, p=Producer:1"\
+"main", "19", "A5_Part2.java:15", "Line Step", "file=A5_Part2.java, line=15"\
+"main", "20", "SYSTEM", "Type Load", "class=Consumer"\
+"main", "21", "A5_Part2.java:15", "New Object", "object=Consumer:1"\
+"main", "22", "A5_Part2.java:15", "Method Call", "caller=A5_Part2#main:1, target=Consumer:1#Consumer:1"\
+"main", "23", "A5_Part2.java:36", "Method Entered", ""\
+"main", "24", "A5_Part2.java:36", "Line Step", "file=A5_Part2.java, line=36"\
+"main", "25", "A5_Part2.java:36", "Method Exit", "returner=Consumer:1#Consumer:1, value=<void>"\
+"main", "26", "A5_Part2.java:15", "Method Returned", ""\
+"main", "27", "A5_Part2.java:15", "Line Step", "file=A5_Part2.java, line=15"\
+"main", "28", "A5_Part2.java:15", "Variable Write", "context=A5_Part2#main:1, c=Consumer:1"\
+"main", "29", "A5_Part2.java:16", "Line Step", "file=A5_Part2.java, line=16"\
+"main", "30", "SYSTEM", "Type Load", "class=Circular_Buffer"\
+"main", "31", "A5_Part2.java:16", "New Object", "object=Circular_Buffer:1"\
+"main", "32", "A5_Part2.java:16", "Method Call", "caller=A5_Part2#main:1, target=Circular_Buffer:1#Circular_Buffer:1"\
+"main", "33", "A5_Part2.java:53", "Method Entered", ""\
+"main", "34", "A5_Part2.java:51", "Line Step", "file=A5_Part2.java, line=51"\
+"main", "35", "A5_Part2.java:53", "Line Step", "file=A5_Part2.java, line=53"\
+"main", "36", "A5_Part2.java:53", "Field Write", "context=Circular_Buffer:1, n=5"\
+"main", "37", "A5_Part2.java:54", "Line Step", "file=A5_Part2.java, line=54"\
+"main", "38", "A5_Part2.java:54", "Field Write", "context=Circular_Buffer:1, data=int[5] (id=36)"\
+"main", "39", "A5_Part2.java:55", "Line Step", "file=A5_Part2.java, line=55"\
+"main", "40", "A5_Part2.java:55", "Field Write", "context=Circular_Buffer:1, p=0"\
+"main", "41", "A5_Part2.java:56", "Line Step", "file=A5_Part2.java, line=56"\
+"main", "42", "A5_Part2.java:56", "Field Write", "context=Circular_Buffer:1, g=0"\
+"main", "43", "A5_Part2.java:57", "Line Step", "file=A5_Part2.java, line=57"\
+"main", "44", "A5_Part2.java:57", "Field Write", "context=Circular_Buffer:1, count=0"\
+"main", "45", "A5_Part2.java:58", "Line Step", "file=A5_Part2.java, line=58"\
+"main", "46", "A5_Part2.java:58", "Field Write", "context=Circular_Buffer:1, v=0"\
+"main", "47", "A5_Part2.java:51", "Line Step", "file=A5_Part2.java, line=51"\
+"main", "48", "A5_Part2.java:51", "Method Exit", "returner=Circular_Buffer:1#Circular_Buffer:1, value=<void>"\
+"main", "49", "A5_Part2.java:16", "Method Returned", ""\
+"main", "50", "A5_Part2.java:16", "Line Step", "file=A5_Part2.java, line=16"\
+"main", "51", "A5_Part2.java:16", "Variable Write", "context=A5_Part2#main:1, b=Circular_Buffer:1"\
+"main", "52", "A5_Part2.java:18", "Line Step", "file=A5_Part2.java, line=18"\
+"main", "53", "A5_Part2.java:18", "Variable Write", "context=A5_Part2#main:1, arr=Scheduler.Process[3] (id=38)"\
+"main", "54", "A5_Part2.java:19", "Line Step", "file=A5_Part2.java, line=19"\
+"Thread-1", "55", "SYSTEM", "Thread Start", "Thread-1 (41)"\
+"Thread-1", "56", "SYSTEM", "Method Call", "caller=SYSTEM, target=LProducer;.run()"\
+"Thread-1", "57", "SYSTEM", "Method Call", "caller=LProducer;.run(), target=Producer:1#run:1"\
+"Thread-1", "58", "A5_Part2.java:29", "Method Entered", ""\
+"Thread-2", "59", "SYSTEM", "Thread Start", "Thread-2 (42)"\
+"Thread-2", "60", "SYSTEM", "Method Call", "caller=SYSTEM, target=LConsumer;.run()"\
+"Thread-2", "61", "SYSTEM", "Method Call", "caller=LConsumer;.run(), target=Consumer:1#run:1"\
+"Thread-2", "62", "A5_Part2.java:38", "Method Entered", ""\
+"Thread-3", "63", "SYSTEM", "Thread Start", "Thread-3 (43)"\
+"Thread-3", "64", "SYSTEM", "Method Call", "caller=SYSTEM, target=LCircular_Buffer;.run()"\
+"Thread-3", "65", "SYSTEM", "Method Call", "caller=LCircular_Buffer;.run(), target=Circular_Buffer:1#run:1"\
+"Thread-3", "66", "A5_Part2.java:78", "Method Entered", ""\
+"main", "67", "A5_Part2.java:19", "Variable Write", "context=A5_Part2#main:1, s=Scheduler.Scheduler (name=Thread-0, id=44)"\
+"main", "68", "A5_Part2.java:22", "Line Step", "file=A5_Part2.java, line=22"\
+"Thread-1", "69", "A5_Part2.java:29", "Variable Write", "context=Producer:1#run:1, v=1"\
+"Thread-1", "70", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "71", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"main", "72", "A5_Part2.java:24", "Line Step", "file=A5_Part2.java, line=24"\
+"Thread-3", "73", "A5_Part2.java:87", "Line Step", "file=A5_Part2.java, line=87"\
+"main", "74", "A5_Part2.java:24", "Method Exit", "returner=A5_Part2#main:1, value=<void>"\
+"main", "75", "A5_Part2.java:14", "Method Returned", ""\
+"main", "76", "SYSTEM", "Thread End", ""\
+"Thread-1", "77", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "78", "A5_Part2.java:88", "Line Step", "file=A5_Part2.java, line=88"\
+"Thread-1", "79", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=2"\
+"Thread-1", "80", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "81", "A5_Part2.java:88", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:1"\
+"Thread-3", "82", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "83", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:1, v=1"\
+"Thread-3", "84", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "85", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "86", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "87", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "88", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "89", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=1"\
+"Thread-3", "90", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "91", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:1"""\
+"Thread-3", "92", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "93", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "94", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "95", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "96", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=1"\
+"Thread-3", "97", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "98", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:1, value=<void>"\
+"Thread-3", "99", "A5_Part2.java:88", "Method Returned", ""\
+"Thread-3", "100", "A5_Part2.java:90", "Line Step", "file=A5_Part2.java, line=90"\
+"Thread-3", "101", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "102", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "103", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "104", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "105", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "106", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "107", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-1", "108", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "109", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "110", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=3"\
+"Thread-1", "111", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "112", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-3", "113", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:2"\
+"Thread-3", "114", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "115", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:2, v=2"\
+"Thread-3", "116", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "117", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "118", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "119", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "120", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "121", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=2"\
+"Thread-3", "122", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-2", "123", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-3", "124", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:2"""\
+"Thread-2", "125", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "126", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "127", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "128", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "129", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "130", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-3", "131", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "132", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:2, value=<void>"\
+"Thread-3", "133", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "134", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "135", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "136", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "137", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "138", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "139", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "140", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "141", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-1", "142", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "143", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "144", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=4"\
+"Thread-1", "145", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "146", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-3", "147", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:3"\
+"Thread-3", "148", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "149", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:3, v=3"\
+"Thread-3", "150", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "151", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "152", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "153", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "154", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "155", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=3"\
+"Thread-3", "156", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "157", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:3"""\
+"Thread-3", "158", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "159", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "160", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "161", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "162", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "163", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "164", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:3, value=<void>"\
+"Thread-3", "165", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "166", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "167", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "168", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "169", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "170", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "171", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "172", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "173", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "174", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "175", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "176", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "177", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "178", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "179", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:1"\
+"Thread-3", "180", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "181", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "182", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "183", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "184", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:1, v=1"\
+"Thread-3", "185", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "186", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "187", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=1"\
+"Thread-3", "188", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "189", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "190", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-3", "191", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "192", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:1"""\
+"Thread-3", "193", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "194", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "195", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "196", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:1, result=1"\
+"Thread-3", "197", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:1, value=1"\
+"Thread-3", "198", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "199", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "200", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "201", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "202", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "203", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-2", "204", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-3", "205", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-2", "206", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "207", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "208", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "209", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-1", "210", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "211", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "212", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=5"\
+"Thread-1", "213", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "214", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-3", "215", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:4"\
+"Thread-3", "216", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "217", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:4, v=4"\
+"Thread-3", "218", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "219", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "220", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "221", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "222", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "223", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=4"\
+"Thread-3", "224", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "225", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:4"""\
+"Thread-3", "226", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "227", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "228", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "229", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "230", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "231", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "232", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:4, value=<void>"\
+"Thread-3", "233", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "234", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "235", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "236", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "237", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "238", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "239", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "240", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "241", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "242", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "243", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "244", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "245", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "246", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "247", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:2"\
+"Thread-3", "248", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "249", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "250", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "251", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "252", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:2, v=2"\
+"Thread-3", "253", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "254", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "255", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=2"\
+"Thread-3", "256", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "257", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "258", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-2", "259", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-3", "260", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-2", "261", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "262", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:2"""\
+"Thread-3", "263", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "264", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "265", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "266", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:2, result=2"\
+"Thread-3", "267", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:2, value=2"\
+"Thread-3", "268", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "269", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "270", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "271", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "272", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "273", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "274", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "275", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "276", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "277", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "278", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "279", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "280", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-1", "281", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=6"\
+"Thread-1", "282", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "283", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:5"\
+"Thread-3", "284", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "285", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:5, v=5"\
+"Thread-3", "286", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "287", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "288", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "289", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "290", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "291", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=0"\
+"Thread-3", "292", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "293", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:5"""\
+"Thread-3", "294", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "295", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "296", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "297", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "298", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "299", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "300", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:5, value=<void>"\
+"Thread-3", "301", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "302", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "303", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "304", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "305", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "306", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "307", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "308", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "309", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "310", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "311", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "312", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "313", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "314", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:3"\
+"Thread-3", "315", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "316", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-2", "317", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "318", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "319", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "320", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:3, v=3"\
+"Thread-3", "321", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-2", "322", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-3", "323", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "324", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "325", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=3"\
+"Thread-3", "326", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "327", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "328", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-3", "329", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "330", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:3"""\
+"Thread-3", "331", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "332", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "333", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "334", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:3, result=3"\
+"Thread-3", "335", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:3, value=3"\
+"Thread-3", "336", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "337", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "338", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "339", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "340", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "341", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "342", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "343", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "344", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "345", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-1", "346", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "347", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "348", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=7"\
+"Thread-1", "349", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "350", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-3", "351", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:6"\
+"Thread-3", "352", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "353", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:6, v=6"\
+"Thread-3", "354", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "355", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "356", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "357", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "358", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "359", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=1"\
+"Thread-3", "360", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "361", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:6"""\
+"Thread-3", "362", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "363", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "364", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "365", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "366", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "367", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "368", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:6, value=<void>"\
+"Thread-3", "369", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "370", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "371", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "372", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "373", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "374", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "375", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "376", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "377", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "378", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "379", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "380", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "381", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "382", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "383", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:4"\
+"Thread-3", "384", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "385", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "386", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "387", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "388", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:4, v=4"\
+"Thread-3", "389", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "390", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "391", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=4"\
+"Thread-3", "392", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "393", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "394", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-3", "395", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "396", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:4"""\
+"Thread-3", "397", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "398", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "399", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "400", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:4, result=4"\
+"Thread-3", "401", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:4, value=4"\
+"Thread-3", "402", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "403", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "404", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "405", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "406", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "407", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "408", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "409", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "410", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "411", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "412", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "413", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "414", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-1", "415", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=8"\
+"Thread-1", "416", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "417", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:7"\
+"Thread-3", "418", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "419", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:7, v=7"\
+"Thread-3", "420", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-2", "421", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-3", "422", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-2", "423", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "424", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "425", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "426", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "427", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=2"\
+"Thread-3", "428", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "429", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:7"""\
+"Thread-3", "430", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "431", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "432", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "433", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "434", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "435", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "436", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:7, value=<void>"\
+"Thread-3", "437", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "438", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "439", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "440", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "441", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "442", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "443", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "444", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "445", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "446", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "447", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "448", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-1", "449", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=9"\
+"Thread-1", "450", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "451", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:8"\
+"Thread-3", "452", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "453", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:8, v=8"\
+"Thread-3", "454", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "455", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "456", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "457", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "458", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "459", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=3"\
+"Thread-3", "460", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "461", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:8"""\
+"Thread-3", "462", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "463", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "464", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "465", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "466", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=4"\
+"Thread-3", "467", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "468", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:8, value=<void>"\
+"Thread-3", "469", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "470", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "471", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "472", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "473", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "474", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "475", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "476", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "477", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "478", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "479", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "480", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "481", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "482", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "483", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:5"\
+"Thread-3", "484", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "485", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "486", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "487", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "488", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:5, v=5"\
+"Thread-3", "489", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "490", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "491", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=0"\
+"Thread-3", "492", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "493", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "494", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "495", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "496", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:5"""\
+"Thread-3", "497", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "498", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "499", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "500", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:5, result=5"\
+"Thread-3", "501", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:5, value=5"\
+"Thread-3", "502", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "503", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "504", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "505", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "506", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "507", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "508", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "509", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "510", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "511", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-1", "512", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "513", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-1", "514", "A5_Part2.java:30", "Variable Write", "context=Producer:1#run:1, v=10"\
+"Thread-1", "515", "A5_Part2.java:31", "Line Step", "file=A5_Part2.java, line=31"\
+"Thread-3", "516", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-3", "517", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:9"\
+"Thread-3", "518", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "519", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:9, v=9"\
+"Thread-3", "520", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-3", "521", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "522", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "523", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "524", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "525", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=4"\
+"Thread-3", "526", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "527", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:9"""\
+"Thread-3", "528", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "529", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "530", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "531", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "532", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=4"\
+"Thread-3", "533", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "534", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:9, value=<void>"\
+"Thread-3", "535", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "536", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "537", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "538", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "539", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "540", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "541", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "542", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "543", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "544", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-1", "545", "A5_Part2.java:30", "Line Step", "file=A5_Part2.java, line=30"\
+"Thread-3", "546", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "547", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-1", "548", "A5_Part2.java:33", "Line Step", "file=A5_Part2.java, line=33"\
+"Thread-3", "549", "A5_Part2.java:102", "Line Step", "file=A5_Part2.java, line=102"\
+"Thread-1", "550", "A5_Part2.java:33", "Variable Delete", "method=Producer:1#run:1 <name=v,type=int (id=7),value=<?>,index=0>"\
+"Thread-1", "551", "A5_Part2.java:33", "Method Exit", "returner=Producer:1#run:1, value=<void>"\
+"Thread-3", "552", "A5_Part2.java:102", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#put:10"\
+"Thread-3", "553", "A5_Part2.java:61", "Method Entered", ""\
+"Thread-3", "554", "A5_Part2.java:61", "Variable Write", "context=Circular_Buffer:1#put:10, v=10"\
+"Thread-3", "555", "A5_Part2.java:62", "Line Step", "file=A5_Part2.java, line=62"\
+"Thread-1", "556", "A5_Part2.java:33", "Exception Throw", "exception=null, thrower=LProducer;.run(), framePopped=true"\
+"Thread-1", "557", "SYSTEM", "Method Returned", ""\
+"Thread-1", "558", "SYSTEM", "Thread End", ""\
+"Thread-3", "559", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "560", "A5_Part2.java:62", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "561", "A5_Part2.java:63", "Line Step", "file=A5_Part2.java, line=63"\
+"Thread-3", "562", "A5_Part2.java:63", "Field Read", "context=Circular_Buffer:1, p"\
+"Thread-3", "563", "A5_Part2.java:63", "Field Write", "context=Circular_Buffer:1, p=0"\
+"Thread-3", "564", "A5_Part2.java:64", "Line Step", "file=A5_Part2.java, line=64"\
+"Thread-3", "565", "A5_Part2.java:64", "Field Write", "context=Circular_Buffer:1, state=""Put:10"""\
+"Thread-3", "566", "A5_Part2.java:65", "Line Step", "file=A5_Part2.java, line=65"\
+"Thread-3", "567", "A5_Part2.java:65", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "568", "A5_Part2.java:66", "Line Step", "file=A5_Part2.java, line=66"\
+"Thread-3", "569", "A5_Part2.java:66", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "570", "A5_Part2.java:66", "Field Write", "context=Circular_Buffer:1, count=5"\
+"Thread-3", "571", "A5_Part2.java:67", "Line Step", "file=A5_Part2.java, line=67"\
+"Thread-3", "572", "A5_Part2.java:67", "Method Exit", "returner=Circular_Buffer:1#put:10, value=<void>"\
+"Thread-3", "573", "A5_Part2.java:102", "Method Returned", ""\
+"Thread-3", "574", "A5_Part2.java:103", "Line Step", "file=A5_Part2.java, line=103"\
+"Thread-3", "575", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "576", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "577", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "578", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "579", "A5_Part2.java:93", "Line Step", "file=A5_Part2.java, line=93"\
+"Thread-3", "580", "A5_Part2.java:93", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:6"\
+"Thread-3", "581", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "582", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "583", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "584", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "585", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:6, v=6"\
+"Thread-3", "586", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "587", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "588", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=1"\
+"Thread-3", "589", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "590", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "591", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=4"\
+"Thread-3", "592", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "593", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:6"""\
+"Thread-3", "594", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "595", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "596", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "597", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:6, result=6"\
+"Thread-3", "598", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:6, value=6"\
+"Thread-3", "599", "A5_Part2.java:93", "Method Returned", ""\
+"Thread-3", "600", "A5_Part2.java:93", "Line Step", "file=A5_Part2.java, line=93"\
+"Thread-2", "601", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "602", "A5_Part2.java:94", "Line Step", "file=A5_Part2.java, line=94"\
+"Thread-2", "603", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "604", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-2", "605", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "606", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "607", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "608", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "609", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "610", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "611", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "612", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-2", "613", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-2", "614", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "615", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "616", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "617", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "618", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "619", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:7"\
+"Thread-3", "620", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "621", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "622", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "623", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "624", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:7, v=7"\
+"Thread-3", "625", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "626", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "627", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=2"\
+"Thread-3", "628", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "629", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "630", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=3"\
+"Thread-3", "631", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "632", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:7"""\
+"Thread-3", "633", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "634", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "635", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "636", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:7, result=7"\
+"Thread-3", "637", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:7, value=7"\
+"Thread-3", "638", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "639", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "640", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "641", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "642", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "643", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "644", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "645", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "646", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "647", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "648", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-2", "649", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "650", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "651", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "652", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "653", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "654", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:8"\
+"Thread-3", "655", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "656", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-2", "657", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "658", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "659", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "660", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:8, v=8"\
+"Thread-3", "661", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "662", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "663", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=3"\
+"Thread-3", "664", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "665", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "666", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=2"\
+"Thread-3", "667", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "668", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:8"""\
+"Thread-3", "669", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "670", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "671", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "672", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:8, result=8"\
+"Thread-3", "673", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:8, value=8"\
+"Thread-3", "674", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "675", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "676", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "677", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "678", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "679", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "680", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "681", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "682", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "683", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "684", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-2", "685", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-2", "686", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "687", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "688", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "689", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "690", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "691", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:9"\
+"Thread-3", "692", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "693", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-3", "694", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "695", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "696", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:9, v=9"\
+"Thread-3", "697", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "698", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "699", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=4"\
+"Thread-3", "700", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "701", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "702", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=1"\
+"Thread-3", "703", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "704", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:9"""\
+"Thread-3", "705", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "706", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "707", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "708", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:9, result=9"\
+"Thread-3", "709", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:9, value=9"\
+"Thread-3", "710", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "711", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "712", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "713", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "714", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "715", "A5_Part2.java:91", "Line Step", "file=A5_Part2.java, line=91"\
+"Thread-3", "716", "A5_Part2.java:91", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "717", "A5_Part2.java:97", "Line Step", "file=A5_Part2.java, line=97"\
+"Thread-3", "718", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "719", "A5_Part2.java:97", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-2", "720", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-2", "721", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+"Thread-3", "722", "A5_Part2.java:98", "Line Step", "file=A5_Part2.java, line=98"\
+"Thread-2", "723", "A5_Part2.java:44", "Line Step", "file=A5_Part2.java, line=44"\
+"Thread-3", "724", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-2", "725", "A5_Part2.java:39", "Line Step", "file=A5_Part2.java, line=39"\
+"Thread-3", "726", "A5_Part2.java:107", "Method Call", "caller=Circular_Buffer:1#run:1, target=Circular_Buffer:1#get:10"\
+"Thread-3", "727", "A5_Part2.java:69", "Method Entered", ""\
+"Thread-3", "728", "A5_Part2.java:70", "Line Step", "file=A5_Part2.java, line=70"\
+"Thread-2", "729", "A5_Part2.java:40", "Line Step", "file=A5_Part2.java, line=40"\
+"Thread-3", "730", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, data"\
+"Thread-3", "731", "A5_Part2.java:70", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "732", "A5_Part2.java:70", "Variable Write", "context=Circular_Buffer:1#get:10, v=10"\
+"Thread-3", "733", "A5_Part2.java:71", "Line Step", "file=A5_Part2.java, line=71"\
+"Thread-3", "734", "A5_Part2.java:71", "Field Read", "context=Circular_Buffer:1, g"\
+"Thread-3", "735", "A5_Part2.java:71", "Field Write", "context=Circular_Buffer:1, g=0"\
+"Thread-3", "736", "A5_Part2.java:72", "Line Step", "file=A5_Part2.java, line=72"\
+"Thread-3", "737", "A5_Part2.java:72", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "738", "A5_Part2.java:72", "Field Write", "context=Circular_Buffer:1, count=0"\
+"Thread-3", "739", "A5_Part2.java:73", "Line Step", "file=A5_Part2.java, line=73"\
+"Thread-3", "740", "A5_Part2.java:73", "Field Write", "context=Circular_Buffer:1, state=""Get:10"""\
+"Thread-3", "741", "A5_Part2.java:74", "Line Step", "file=A5_Part2.java, line=74"\
+"Thread-3", "742", "A5_Part2.java:74", "Field Read", "context=Circular_Buffer:1, state"\
+"Thread-3", "743", "A5_Part2.java:75", "Line Step", "file=A5_Part2.java, line=75"\
+"Thread-3", "744", "A5_Part2.java:75", "Variable Write", "context=Circular_Buffer:1#get:10, result=10"\
+"Thread-3", "745", "A5_Part2.java:75", "Method Exit", "returner=Circular_Buffer:1#get:10, value=10"\
+"Thread-3", "746", "A5_Part2.java:107", "Method Returned", ""\
+"Thread-3", "747", "A5_Part2.java:107", "Line Step", "file=A5_Part2.java, line=107"\
+"Thread-3", "748", "A5_Part2.java:79", "Line Step", "file=A5_Part2.java, line=79"\
+"Thread-3", "749", "A5_Part2.java:85", "Line Step", "file=A5_Part2.java, line=85"\
+"Thread-3", "750", "A5_Part2.java:85", "Field Read", "context=Circular_Buffer:1, count"\
+"Thread-3", "751", "A5_Part2.java:87", "Line Step", "file=A5_Part2.java, line=87"\
+"Thread-2", "752", "A5_Part2.java:41", "Line Step", "file=A5_Part2.java, line=41"\
+"Thread-2", "753", "A5_Part2.java:43", "Line Step", "file=A5_Part2.java, line=43"\
+}
